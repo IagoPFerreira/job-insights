@@ -1,6 +1,9 @@
-from src.jobs import read
+# Tente usando essa importação aqui, caso dê algum erro, comente a linha 2 e
+# descomente a forma alternativa na linha 6
+from jobs import read
 
-# from jobs import read
+# Forma alternativa
+# from src.jobs import read
 
 
 def get_unique_job_types(path):
